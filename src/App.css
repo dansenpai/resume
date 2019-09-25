@@ -1,22 +1,94 @@
-.App {
-  text-align: center;
+@import '../node_modules/bulma/css/bulma.min.css';
+
+.profile-hero.title{
+  font-size: 5rem;
 }
 
-.App-logo {
-  height: 40vmin;
+.profile-hero.subtitle {
+  font-size: 2.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero{
+  background-image: url("/background.svg");
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.profile-info{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.profile-info > img{
+ margin-right: 20px;
+ opacity: 0.7;
+ object-fit: contain;
+ max-height: 200px;
+ background: #fff;
+ border-radius: 50%;
+ padding-top: 10px
+}
+
+.profile-icons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.icon{
+  height: 3rem;
+  width: 3rem;
+  margin: 5px 20px;
+  cursor: pointer;
+  padding: 3px;
+}
+
+
+.linkedin.icon {
+  background: #0077B5;
+  border-radius: 5px;
+}
+
+.facebook.icon{
+  color: #3C5A99;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.whatsapp.icon{
+  color: #25D366;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.github.icon {
+  color: #6e5494;
+  background: #fff;
+  border-radius: 5px;
+}
+
+
+@media(max-width: 600px) {
+  .profile-info{
+    justify-content: center;
+    text-align: center;
+  }
+
+  .profile-info > img{
+    margin-bottom: 20px;
+  }
+
+  .profile-hero.title{
+    font-size: 2rem;
+  }
+  
+  .profile-hero.subtitle {
+    font-size: 1rem;
+  }
 }
