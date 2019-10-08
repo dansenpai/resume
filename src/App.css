@@ -1,19 +1,39 @@
 @import '../node_modules/bulma/css/bulma.min.css';
 
-.profile-hero.title{
-  font-size: 5rem;
+.sidebar {
+  max-width: 400px;
+  min-width: 300px;
+  background: #333;
+  height: 100%;
+  position: fixed;
+  border-right: 1px solid #666;
 }
 
-.profile-hero.subtitle {
-  font-size: 2.5rem;
+a.link {
+  text-decoration: underline dashed !important;
 }
 
-.hero{
-  background-image: url("/background.svg");
-  background-position-y: bottom;
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;
-  background-size: cover;
+.main-text{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p.main-text{
+  margin-top: 30px;
+}
+
+.main-text.title{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.common-list{
+  color: #fff;
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 20px;
 }
 
 .profile-info{
@@ -22,16 +42,29 @@
   position: relative;
   align-items: center;
   justify-content: center;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.profile-hero.title{
+  font-size: 1.5rem;
+  color: #bbb;
+}
+
+.profile-hero.subtitle {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #bbb;
 }
 
 .profile-info > img{
- margin-right: 20px;
- opacity: 0.7;
- object-fit: contain;
- max-height: 200px;
- background: #fff;
- border-radius: 50%;
- padding-top: 10px
+  margin: 10px 0px;
+  opacity: 0.7;
+  object-fit: contain;
+  max-height: 200px;
+  background: #fff;
+  border-radius: 50%;
+  padding-top: 10px;
 }
 
 .profile-icons{
@@ -42,47 +75,93 @@
 }
 
 .icon{
-  height: 3rem;
-  width: 3rem;
+  height: 2rem;
+  width: 2rem;
   margin: 5px 20px;
   cursor: pointer;
   padding: 3px;
+  color: #bbb;
 }
 
-
-.linkedin.icon {
-  background: #0077B5;
-  border-radius: 5px;
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.facebook.icon{
-  color: #3C5A99;
-  background: #fff;
-  border-radius: 5px;
+.link-item {
+  text-align: center;
+  padding: 10px;
+  color: #bbb;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
 }
 
-.whatsapp.icon{
-  color: #25D366;
-  background: #fff;
-  border-radius: 5px;
+.link-item.active{
+  background-color: #222; 
 }
 
-.github.icon {
-  color: #6e5494;
-  background: #fff;
-  border-radius: 5px;
+.link-item:hover{
+  color: #eee;
 }
 
+.main-content {
+  padding-left: 400px;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  background: #222;
+}
 
-@media(max-width: 600px) {
+@media(max-width: 1024px) {
+  body, html {
+    height: auto;
+  }
+
+  .main-content {
+    margin: 0;
+    padding: 30px;
+  }
+
+  .sidebar {
+    position: relative;
+    width: 100% !important;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .link-item.active{
+    background-color: #222; 
+    border-top-right-radius: 15px;
+    box-shadow: 1px 1px 1px #000;
+  }  
+
+  .links{
+    flex-direction: row;
+    justify-content: space-around
+  }
+
+  .link-item{
+    font-size: 12px;
+  }
+
+  .profile-icons {
+    padding-bottom: 10px;
+  }
+
+  .profile-info > img{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    height: 100px;
+  }
+
   .profile-info{
     justify-content: center;
     text-align: center;
   }
 
-  .profile-info > img{
-    margin-bottom: 20px;
-  }
 
   .profile-hero.title{
     font-size: 2rem;
@@ -92,3 +171,4 @@
     font-size: 1rem;
   }
 }
+

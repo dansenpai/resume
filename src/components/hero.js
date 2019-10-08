@@ -5,7 +5,7 @@ import {FaFacebookSquare, FaGithubSquare, FaLinkedinIn, FaWhatsappSquare} from '
 class Hero extends React.Component {
   render() {
     return(
-      <section className="hero is-medium is-dark">
+      <section className="hero is-medium is-dark is-bold">
         <div className="hero-body">
           <div className="container">
             <div className="profile-info">
@@ -22,7 +22,6 @@ class Hero extends React.Component {
               <FaGithubSquare className="github icon"/>
               <FaWhatsappSquare  className="whatsapp icon"/>
             </div>
-
           </div>
         </div>
       </section>
