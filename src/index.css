@@ -1,18 +1,17 @@
 html, body {
+  font-family: 'Source Code Pro' !important;
   margin: 0;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #222 !important;
-  color: "bbb";
-  height: auto;
   height: 100% !important;
-  padding-bottom: 40px;
+  background: url("http://danielsantos.herokuapp.com/images/background.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  background-attachment: scroll;
+  overflow: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: 'Source Code Pro';
 }
