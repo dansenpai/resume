@@ -115,6 +115,31 @@ p.main-text{
   background: #222;
 }
 
+.portfolio-item {
+  display: flex;
+  align-items: center;
+
+}
+
+.portfolio-item p {
+  color: #FFF;
+  margin-right: 30px;
+}
+
+
+.stars{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.stars .note {
+  font-size: 22px;
+  color: #fff;
+  margin-right: 10px;
+}
+
 @media(max-width: 1024px) {
   body, html {
     height: auto;

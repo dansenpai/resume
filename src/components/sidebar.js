@@ -31,10 +31,17 @@ class Sidebar extends React.Component {
         </div>
         
         <div className="profile-icons">
-          <FaFacebookSquare className="facebook icon" />
-          <FaLinkedinIn  className="linkedin icon"/>
-          <FaGithubSquare className="github icon"/>
-          <FaWhatsappSquare  className="whatsapp icon"/>
+          <a href="https://www.linkedin.com/in/dansenpai/" target="_blank">
+            <FaLinkedinIn  className="linkedin icon"/>
+          </a>
+
+          <a href="https://github.com/dansenpai" target="_blank">
+            <FaGithubSquare className="github icon"/>
+          </a>
+
+          <a href="https://api.whatsapp.com/send?phone=5586999001465" target="_blank">
+            <FaWhatsappSquare  className="whatsapp icon"/>
+          </a>
         </div>
 
         <div className="links">

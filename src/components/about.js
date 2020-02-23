@@ -12,7 +12,7 @@ class About extends React.Component {
           </p>
 
           <p className="main-text">
-            Em Teresina, já passei pela <a className="link">Medplan</a> e <a className="link">Inforgeneses</a>. Cursei Sistemas de Informação  na 
+            Em Teresina, já passei pela <a href="https://www.medplan.com.br" target="_blank" className="link">Medplan</a> e <a href="https://inforgeneses.com.br/" target="_blank" className="link">Inforgeneses</a>. Cursei Sistemas de Informação  na 
             FATEPI em 2014, depois que conheci programação comecei a estudar por conta própria, como sempre fiz, e assim consegui começar trabalhar 
             logo, como consequência comecei a aprender bastante.
           </p><br />
