@@ -7,7 +7,7 @@ const Portfolio = () =>{
 
   return(
     <Screen>
-      <Title>Alguns dos meus trabalhos</Title>
+      <Title>Some of my work</Title>
       <Cards>
         <Card>
           <CardBody>
@@ -16,7 +16,7 @@ const Portfolio = () =>{
                 <img src={require('../../assets/images/lolstories.png')} />
               </Link>
               <TechStack>
-                  <Subtitle>Libs Usadas</Subtitle>
+                  <Subtitle>Used Libs</Subtitle>
                   <Tech>React Native / Redux </Tech>
                   <Tech>Styled Components</Tech>
                   <Tech>React Navigation</Tech>
@@ -31,7 +31,7 @@ const Portfolio = () =>{
             <Subtitle>
               <Link href="https://play.google.com/store/apps/details?id=danielsantos.herokuapp.com" target="_blank">Lol Stories</Link>
             </Subtitle>
-            <Paragraph>App para leitura das lores, histórias e quadrinhos de league of legends.</Paragraph>
+            <Paragraph>App for reading the lores, stories and comics of league of legends.</Paragraph>
             <AppDetails>
               <Stars>
                 4,1 <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg=='/>
@@ -51,7 +51,7 @@ const Portfolio = () =>{
                 <img style={{padding: '20px'}} src={require('../../assets/images/inever.jpeg')} />
               </Link>
               <TechStack>
-                  <Subtitle>Libs Usadas</Subtitle>
+                  <Subtitle>Used Libs</Subtitle>
                   <Tech>React Native </Tech>
                   <Tech>Styled Components</Tech>
                   <Tech>React Navigation</Tech>
@@ -61,7 +61,7 @@ const Portfolio = () =>{
           </CardBody>
           <CardFooter>
             <Subtitle><Link href="https://play.google.com/store/apps/details?id=com.inever" target="_blank">Inever - Eu nunca</Link></Subtitle>
-            <Paragraph>App popular para brincadeiras de 'Shot'</Paragraph>
+            <Paragraph>Popular app to play 'shot games'.</Paragraph>
             <AppDetails>
               <Stars>
                 5,0 <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg=='/>
@@ -81,7 +81,7 @@ const Portfolio = () =>{
                 <img style={{padding: '20px'}} src={require('../../assets/images/zapsemcontato.webp')} />
               </Link>
               <TechStack>
-                  <Subtitle>Libs Usadas</Subtitle>
+                  <Subtitle>Used Libs</Subtitle>
                   <Tech>React Native </Tech>
                   <Tech>React Navigation</Tech>
                   <Tech>Async Storage</Tech>
@@ -90,7 +90,7 @@ const Portfolio = () =>{
           </CardBody>
           <CardFooter>
             <Subtitle><Link href="https://play.google.com/store/apps/details?id=com.danielsantosdev.zapsemcontato" target="_blank">Zap sem contato</Link></Subtitle>
-            <Paragraph>App para abrir conversas de whatsapp sem precisar salvar o número, também salva um histórico de números abertos.</Paragraph>
+            <Paragraph>App to open WhatsApp conversations without having to save the number, it also saves a history of open numbers.</Paragraph>
             <AppDetails>
               <Stars>
                 3,0 <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABA0lEQVR4AWMgBEpLS+MYKAFlZWWaJSUlP6urq6XJNgRowKzi4uL/QLqNLAMaGhpEgJq/gwwB4rd9fX2c5LiiFmQADAP56aS4gAkYmBJAjS/QDLkGxNwgF02aNIl95syZrEC1LCD1IBsLgIr2APElqMY/IE0k4BqQzVxAgzaRpBHhunK4F1atWsUMFJhKogFFuAKzFKjgHxEG5BGKlRYCBqwiJmonEjDkBDGG7CdgyFdwtOIDoNSJpOkfUNMh9HAC5il1fBlOBjlxlZeXW0FzsjWQfxEmB+SH48v2XkBFv4B0I9DJbBBRRDKAJsyPQNyO0xCgze5ArI3Pu1VVVZJAS5KQxQC83Tw70VP4pQAAAABJRU5ErkJggg=='/>
